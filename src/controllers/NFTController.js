@@ -131,10 +131,9 @@ module.exports = {
             
             const numOfTokens = await contract.methods.balanceOf(to).call();
             let tokenId = await contract.methods.tokenOfOwnerByIndex(to, parseInt(numOfTokens)-1).call();
-            tokenId = parseInt(tokenId)
+            tokenId = parseInt(tokenId);
 
-            // const tokenURI = await contract.methods.tokenURI(tokenId).call();
-            tokenURI = `http://192.168.0.11:3333/NFTMetadata/${tokenId}`;
+            const tokenURI = await contract.methods.tokenURI(tokenId).call();
 
             const { title } = req.headers;
             let { wine, date } = req.headers;
