@@ -15,4 +15,4 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(require('./routes'));
 
-server.listen(process.env.PORT);
+server.listen(process.env.PORT || 3333);
