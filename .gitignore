@@ -1,0 +1,4 @@
+node_modules
+./src/artworks/*
+./src/metadata/*
+package-lock.json

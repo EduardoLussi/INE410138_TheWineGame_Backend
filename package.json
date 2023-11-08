@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000N\u0000E\u00004\u00001\u00000\u00001\u00003\u00008\u0000_\u0000T\u0000h\u0000e\u0000W\u0000i\u0000n\u0000e\u0000G\u0000a\u0000m\u0000e\u0000_\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoLussi/INE410138_TheWineGame_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoLussi/INE410138_TheWineGame_Backend/issues"
+  },
+  "homepage": "https://github.com/EduardoLussi/INE410138_TheWineGame_Backend#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jssoup": "^0.0.15",
+    "web3": "^4.2.1"
+  }
+}
